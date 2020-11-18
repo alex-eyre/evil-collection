@@ -1,4 +1,4 @@
-;;; evil-haskell.el --- Evil bindings for haskell-interactive-mode  -*- lexical-binding: t -*-
+;;; evil-collection-haskell-interactive-mode.el --- Evil bindings for haskell-interactive-mode  -*- lexical-binding: t -*-
 (require 'evil-collection)
 (require 'haskell-interactive-mode)
 
@@ -26,5 +26,5 @@ it is not appropriate in some cases like terminals."
     "gj" 'haskell-interactive-mode-prompt-previous
     "0" 'haskell-interactive-mode-bol ; "0" is meant to really go at the beginning of line.
     "^" 'haskell-interactive-mode-bol))
-(provide 'evil-collection-haskell-setup)
+(provide 'evil-collection-haskell-interactive-mode)
 ;; eof
