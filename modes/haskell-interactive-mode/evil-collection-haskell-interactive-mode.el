@@ -8,7 +8,7 @@ Moving cursor backwards is the default Vim behavior but
 it is not appropriate in some cases like terminals."
   (setq-local evil-move-cursor-back nil))
 ;;;###autoload
-(defun evil-collection-haskell-interactive-setup ()
+(defun evil-collection-haskell-interactive-mode-setup ()
   "Set up `evil' bindings for `term'."
   (evil-set-initial-state 'haskell-interactive-mode 'insert)
 
