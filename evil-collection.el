@@ -175,6 +175,7 @@ through removing their entry from `evil-collection-mode-list'."
     grep
     guix
     hackernews
+    haskell-interactive-mode
     helm
     help
     helpful
