@@ -21,7 +21,7 @@ it is not appropriate in some cases like terminals."
     "[[" 'haskell-interactive-mode-prompt-next
     "]]" 'haskell-interactive-mode-prompt-previous
     (kbd "C-k") 'haskell-interactive-mode-prompt-next
-    (kdb "C-j") 'haskell-interactive-mode-prompt-previous
+    (kbd "C-j") 'haskell-interactive-mode-prompt-previous
     "gk" 'haskell-interactive-mode-prompt-next
     "gj" 'haskell-interactive-mode-prompt-previous
     "0" 'haskell-interactive-mode-bol ; "0" is meant to really go at the beginning of line.
