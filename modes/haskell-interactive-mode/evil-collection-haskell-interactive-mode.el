@@ -17,6 +17,7 @@ it is not appropriate in some cases like terminals."
   (evil-collection-define-key 'normal 'haskell-interactive-mode-map
     (kbd "C-c C-k") 'evil-collection-term-char-mode-insert
     (kbd "RET") 'haskell-interactive-mode-return
+    "dd" 'haskell-interactive-mode-kill-whole-line
     ;; motion
     "[[" 'haskell-interactive-mode-prompt-next
     "]]" 'haskell-interactive-mode-prompt-previous
